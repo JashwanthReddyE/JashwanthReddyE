@@ -37,7 +37,7 @@
 
 - 📧 jashwanthreddyearla@gmail.com  
 - 📱 +1 514-216-7289  
-- [💼 LinkedIn](https://www.linkedin.com/in/jashwanthreddyearla)
+- [💼 LinkedIn](https://www.linkedin.com/in/jashwanth-reddy-earla/)
 
 ---
 
