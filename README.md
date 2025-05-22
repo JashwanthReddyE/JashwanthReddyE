@@ -10,7 +10,6 @@
 - 🔧 Skilled in Python, SQL, Excel, Power BI, and Git
 - 🤖 Passionate about AI, Robotics, and Process Optimization
 - 📊 Currently diving into data analytics & visualization
-- 🗣️ Preparing for CELPIP to master English communication
 - 📍 Exploring new opportunities in tech & management
 
 ---
