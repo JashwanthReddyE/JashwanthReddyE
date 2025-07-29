@@ -37,16 +37,10 @@ Docker | Kubernetes | Terraform | Ansible | CI/CD (GitHub Actions) | Redis | Cou
 
 ## 🏆 Professional Highlights
 
-### Data Engineer @ Hexagon R&D India (2021–2023)
-- Designed scalable data microservices for **Intergraph SDx**, serving oil, gas & marine enterprises  
-- Enhanced RESTful APIs achieving **60% performance improvement** through Redis caching & optimization  
-- Built full-stack Kanban dashboard with **Node.js, React, GraphQL** for distributed teams  
-- Maintained **90%+ code coverage** and reduced production incidents by **50%**
-
-### Cloud Data & Automation Engineer @ Inventreon Technologies (2019–2021)
-- Modernized legacy CRM with event-driven architecture, increasing throughput by **35%**  
-- Automated ETL workflows achieving **100% reliability** and reducing manual operations by **80%**  
-- Implemented Infrastructure as Code with **Python, Terraform, Ansible**
+- Developed microservices with Flask, Node.js, and React to support global business applications across multiple industries.
+- Optimized RESTful API response times by 60% through caching and query tuning.
+- Automated cloud infrastructure management on AWS, reducing manual workload by 80% while ensuring 100% backup reliability.
+- Improved code quality and reduced production bugs by 50% with comprehensive unit testing and automation frameworks.
 
 ---
 
