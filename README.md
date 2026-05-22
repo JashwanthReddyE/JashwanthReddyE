@@ -1,7 +1,7 @@
 # Hi, I'm Jashwanth Reddy Earla
 
-**Senior Data Engineer** — Cloud Data Platforms · ETL/ELT · Analytics Engineering
-Montreal, Canada · [jashwanthreddyearla@gmail.com](mailto:jashwanthreddyearla@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jashwanthreddye/) · [Portfolio](https://jashwanthreddye.github.io)
+**Senior Data Engineer** — Cloud Data Platforms · ETL/ELT · Analytics Engineering | Mississauga, Canada
+[jashwanthreddyearla@gmail.com](mailto:jashwanthreddyearla@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jashwanthreddye/) · [Portfolio](https://jashwanthreddye.github.io)
 
 ---
 
