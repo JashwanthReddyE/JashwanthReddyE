@@ -1,89 +1,73 @@
-# 👋 Hi, I'm Jashwanth Reddy Earla
+# Hi, I'm Jashwanth Reddy Earla
 
-🎓 **Masters in Quality Systems Engineering** (Concordia University, 2025) | 📍 Montreal, Canada  
-💼 **Data Engineer** | 🔍 Currently seeking Data Engineering opportunities
-
----
-
-## 🚀 About Me
-
-Driven **Data Engineer** with 3+ years of experience architecting and optimizing scalable data pipelines, ETL workflows, and cloud platforms. I specialize in building real-time analytics solutions and modern data architectures to enable data-driven business decisions.
-
-**What I bring to the table:**
-
-- 🏗️ **Scalable Data Architecture** — Designed microservices for real-time analytics supporting 10+ countries  
-- ⚡ **Performance Optimization** — Improved API response times by 60% through caching and SQL tuning  
-- ☁️ **Cloud-Native Development** — Expert in AWS, GCP, Azure with production-grade data solutions  
-- 📊 **Real-Time Analytics** — Built streaming pipelines processing 10,000+ records per minute  
-- 🛠️ **Modern Data Stack** — Proficient in Apache Airflow, dbt, Kafka, BigQuery, Tableau, and more
+**Senior Data Engineer** — Cloud Data Platforms · ETL/ELT · Analytics Engineering
+Montreal, Canada · [jashwanthreddyearla@gmail.com](mailto:jashwanthreddyearla@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jashwanthreddye/) · [Portfolio](https://jashwanthreddye.github.io)
 
 ---
 
-## 🛠️ Technical Arsenal
+## About
 
-**Languages & Core Technologies:**  
-Python (pandas, NumPy) | Java | SQL (PostgreSQL, MySQL) | JavaScript (Node.js, TypeScript) | Bash
+Senior Data Engineer with 4+ years building enterprise-grade data platforms on **Microsoft Azure** and **AWS** across banking, retail, and healthcare. I take ownership end-to-end — raw ingestion through business-ready analytics — and I ship to SLA.
 
-**Data Engineering & Analytics:**  
-ETL/ELT | Data Modeling | Data Warehousing | Apache Airflow | dbt | Apache Kafka | Tableau | Power BI | Looker | Streaming Data Processing
+What I work on, day to day:
 
-**Cloud Platforms:**  
-AWS (EC2, Lambda, S3, DynamoDB, EventBridge) | GCP (BigQuery) | Azure
-
-**Infrastructure & DevOps:**  
-Docker | Kubernetes | Terraform | Ansible | CI/CD (GitHub Actions) | Redis | Couchbase
+- **Streaming + batch lakehouses** — PySpark on Databricks / EMR, Delta Lake medallion on ADLS Gen2, near-real-time event scoring via Event Hub, Kafka, and Structured Streaming.
+- **Warehouses that hold up under audit** — star-schema models on Snowflake, Redshift, and Azure Synapse with SCD Type 2, CDC merge logic, and dbt tests as deployment gates.
+- **Pipeline orchestration** — Airflow DAGs on AKS/EC2, ADF, AWS Glue + Step Functions, all wired through Azure DevOps and Jenkins CI/CD with Terraform IaC.
+- **Governance + data quality** — Great Expectations, dbt tests, Python reconciliation, Purview / Glue Data Catalog lineage, column-level masking, RLS.
+- **LLM-assisted engineering** — Azure OpenAI + Copilot for prompt-engineered NL → SQL assistants, dbt model scaffolds, and auto-generated pipeline documentation.
 
 ---
 
-## 🏆 Professional Highlights
+## Tech I reach for
 
-- Developed microservices with Flask, Node.js, and React to support global business applications across multiple industries.
-- Optimized RESTful API response times by 60% through caching and query tuning.
-- Automated cloud infrastructure management on AWS, reducing manual workload by 80% while ensuring 100% backup reliability.
-- Improved code quality and reduced production bugs by 50% with comprehensive unit testing and automation frameworks.
-
----
-
-## 🚀 Featured Projects
-
-### Real-Time Sales Data Pipeline & Analytics Platform  
-*Tech Stack:* `Python` `Apache Airflow` `Kafka` `PostgreSQL` `AWS S3` `Tableau`  
-- Built production ETL pipeline processing **10,000+ records/minute**  
-- Automated nightly batch transformations with modular Airflow DAGs  
-- Created dynamic Tableau dashboards reducing report turnaround by **70%**
-
-### Scalable Data Warehouse & Transformation Framework (GCP)  
-*Tech Stack:* `Google BigQuery` `dbt` `SQL` `Python` `Looker`  
-- Architected high-performance data warehouse for multi-region e-commerce data  
-- Implemented star schema modeling with dbt-driven transformation layers  
-- Optimized query performance by **40%** and reduced costs by **35%**
+**Cloud** — Azure (ADF, Synapse, ADLS Gen2, Databricks, Event Hub, Functions, Purview, AKS) · AWS (S3, Redshift, Glue, EMR, Athena, Step Functions, Lambda)
+**Warehousing** — Snowflake · Synapse · Redshift · SQL Server · Oracle · star/snowflake schema · SCD Type 1/2
+**Pipelines** — Azure Data Factory · AWS Glue · dbt · Apache Airflow · PySpark · Databricks Structured Streaming
+**Streaming** — Azure Event Hub · Kafka · AWS Step Functions · event-driven triggers
+**DevOps / IaC** — Azure DevOps · Jenkins · Terraform · Docker · Kubernetes (AKS) · Git
+**Quality + governance** — Great Expectations · dbt tests · Azure Purview · AWS Glue Data Catalog
+**Visualization** — Power BI (DAX, RLS, semantic models) · Tableau
+**Languages** — Python (PySpark, Pandas, Boto3) · SQL (CTEs, window functions, tuning) · DAX · Shell
+**AI / Prompt Engineering** — Azure OpenAI (GPT-4) · GitHub Copilot · LangChain · NL → SQL
 
 ---
 
-## 📈 Current Focus
+## What I've shipped
 
-🎯 Seeking Data Engineer roles where I can:  
-- Build scalable data pipelines and real-time analytics solutions  
-- Optimize modern cloud data architectures and warehouses  
-- Foster cross-functional collaboration in Agile teams  
-- Enable data-driven decision making to accelerate business growth
+**Senior Data Engineer · CGI · Aug 2024 – Present** *(Tier-1 Canadian bank)*
+Real-time fraud detection on Azure — Event Hub + Kafka → Databricks Structured Streaming → Snowflake gold. Replaced T+1 batch fraud scoring with sub-8-second event-to-alert. Brought a 5-hour overnight feature refresh to under 90 minutes. Built a Purview lineage + Power BI quality console used by both engineering and OSFI compliance. Stood up an Azure OpenAI NL → SQL assistant on Snowflake fraud data for risk analysts.
 
----
+**Data Engineer · Hexagon Capability Centre · Aug 2022 – Aug 2023** *(global retail client)*
+Customer 360 platform on AWS as a federated data mesh — S3 + Glue Data Catalog, EMR PySpark identity stitching, Redshift star schema with conformed dimensions, dbt + Jenkins CI/CD. Migrated 16 legacy Informatica mappings and cut monthly segmentation cycles from 6 hours to ~90 minutes.
 
-## 📫 Let's Connect
-
-- 📧 jashwanthreddyearla@gmail.com  
-- 📱 +1 514-216-7289  
-- [LinkedIn](https://www.linkedin.com/in/jashwanthreddye)  
+**Data Engineer · Quality Theorem · May 2020 – Jul 2022** *(hospital network)*
+Azure Synapse data-warehouse modernization for clinical operations, claims, and provider analytics. Metadata-driven ADF templates replaced 19 legacy SSIS packages; dbt on Synapse with SCD Type 2 macros; Purview lineage with PHI classification; Power BI DirectQuery semantic models replacing 11 SSRS reports.
 
 ---
 
-<details>
-  <summary>⭐ GitHub Stats</summary>
+## Featured projects
 
-![Jashwanth's GitHub stats](https://github-readme-stats.vercel.app/api?username=jashwanth-reddy&show_icons=true&theme=github_dark)
-</details>
+| Project | What it is | Stack |
+|---|---|---|
+| [**aws-stock-sentiment-pipeline**](https://github.com/JashwanthReddyE/aws-stock-sentiment-pipeline) | End-to-end AWS pipeline: Lambda news ingest → S3 medallion → Bedrock LLM sentiment → Athena → 5-day forecast → Streamlit dashboard. IaC with Terraform. | Python · AWS Lambda · S3 · Athena · Bedrock · Terraform · Streamlit |
+| [**sql-data-warehouse-project**](https://github.com/JashwanthReddyE/sql-data-warehouse-project) | SQL Server data warehouse with a bronze / silver / gold medallion architecture. CRM + ERP source integration, SCD logic, quality checks, and gold-layer star-schema views (`dim_customers`, `dim_products`, `fact_sales`). | T-SQL · SQL Server · Medallion architecture · Dimensional modeling |
+| [**Gen-AI**](https://github.com/JashwanthReddyE/Gen-AI) | LangChain *Ice Breaker* agent — given a person's name, finds their LinkedIn profile via Tavily search, scrapes it, and returns a structured Pydantic summary from Gemini. ReAct agent + prompt engineering. | Python · LangChain · Gemini · Tavily · Pydantic |
+| [**IBM**](https://github.com/JashwanthReddyE/IBM) | IBM Data Science capstone — SpaceX Falcon 9 first-stage landing prediction. API + web scraping ingestion, EDA, label engineering, classification. Plus King County house-price regression. | Python · Pandas · scikit-learn · seaborn |
+| [**JashwanthReddyE.github.io**](https://github.com/JashwanthReddyE/JashwanthReddyE.github.io) | Current Data Engineer portfolio site — architecture diagrams, wins-with-numbers, featured-project deep-dive on the AWS stock-sentiment pipeline. | HTML · CSS · Vanilla JS |
+| [**Portfolio**](https://github.com/JashwanthReddyE/Portfolio) | First-iteration personal portfolio site — About / Experience / Projects / Contact, responsive layout. | HTML · CSS · JavaScript |
 
 ---
 
-*Thanks for stopping by! Always happy to discuss data engineering, cloud architecture, and innovative data solutions 🚀*
+## Education
+
+- **M.Eng., Quality Systems Engineering** — Concordia University, Montreal · 2023 – 2025 · GPA 3.73/4.0
+- **B.E., Mechanical Engineering** — Chaithanya Bharathi Institute of Technology, Hyderabad · 2017 – 2021 · GPA 7.96/10
+
+---
+
+## Get in touch
+
+- [jashwanthreddyearla@gmail.com](mailto:jashwanthreddyearla@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/jashwanthreddye/)
+- [Portfolio](https://jashwanthreddye.github.io)
