@@ -15,21 +15,21 @@ What I work on, day to day:
 - **Warehouses that hold up under audit** — star-schema models on Snowflake, Redshift, and Azure Synapse with SCD Type 2, CDC merge logic, and dbt tests as deployment gates.
 - **Pipeline orchestration** — Airflow DAGs on AKS/EC2, ADF, AWS Glue + Step Functions, all wired through Azure DevOps and Jenkins CI/CD with Terraform IaC.
 - **Governance + data quality** — Great Expectations, dbt tests, Python reconciliation, Purview / Glue Data Catalog lineage, column-level masking, RLS.
-- **LLM-assisted engineering** — Azure OpenAI + Copilot for prompt-engineered NL → SQL assistants, dbt model scaffolds, and auto-generated pipeline documentation.
+- **LLM-assisted engineering** — Azure OpenAI, Claude, and Copilot for prompt-engineered NL → SQL assistants, dbt model scaffolds, and auto-generated pipeline documentation.
 
 ---
 
 ## Tech I reach for
 
-**Cloud** — Azure (ADF, Synapse, ADLS Gen2, Databricks, Event Hub, Functions, Purview, AKS) · AWS (S3, Redshift, Glue, EMR, Athena, Step Functions, Lambda)
+**Cloud** — Azure (ADF, Synapse, ADLS Gen2, Databricks, Event Hub, Functions, Purview, AKS) · AWS (S3, Redshift, Glue, EMR, Athena, Step Functions, Lambda, Bedrock)
 **Warehousing** — Snowflake · Synapse · Redshift · SQL Server · Oracle · star/snowflake schema · SCD Type 1/2
 **Pipelines** — Azure Data Factory · AWS Glue · dbt · Apache Airflow · PySpark · Databricks Structured Streaming
 **Streaming** — Azure Event Hub · Kafka · AWS Step Functions · event-driven triggers
-**DevOps / IaC** — Azure DevOps · Jenkins · Terraform · Docker · Kubernetes (AKS) · Git
+**DevOps / IaC** — Azure DevOps · Jenkins · Terraform · Docker · Kubernetes (AKS) · Git · GitHub Actions
 **Quality + governance** — Great Expectations · dbt tests · Azure Purview · AWS Glue Data Catalog
-**Visualization** — Power BI (DAX, RLS, semantic models) · Tableau
+**Visualization** — Power BI (DAX, RLS, semantic models) · Tableau · Streamlit · Plotly
 **Languages** — Python (PySpark, Pandas, Boto3) · SQL (CTEs, window functions, tuning) · DAX · Shell
-**AI / Prompt Engineering** — Azure OpenAI (GPT-4) · GitHub Copilot · LangChain · NL → SQL
+**AI / Prompt Engineering** — Azure OpenAI (GPT-4) · AWS Bedrock (Claude) · GitHub Copilot · LangChain · NL → SQL
 
 ---
 
@@ -50,12 +50,23 @@ Azure Synapse data-warehouse modernization for clinical operations, claims, and 
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**aws-stock-sentiment-pipeline**](https://github.com/JashwanthReddyE/aws-stock-sentiment-pipeline) | End-to-end AWS pipeline: Lambda news ingest → S3 medallion → Bedrock LLM sentiment → Athena → 5-day forecast → Streamlit dashboard. IaC with Terraform. | Python · AWS Lambda · S3 · Athena · Bedrock · Terraform · Streamlit |
+| [**crypto-sentinel**](https://github.com/JashwanthReddyE/crypto-sentinel) · [live ↗](https://crypto-sentinel-dashboard.vercel.app/) | Azure Functions pipeline scoring 24 crypto assets daily into **BUY / WATCH / AVOID** picks. 6-signal weighted engine — news sentiment (CryptoPanic) + 3 momentum windows + volume ratio + trending bonus — exposed via HTTP endpoints and a Vercel dashboard. Runs at ~$0.03/month. 144 pytest cases. | Python 3.11 · Azure Functions v4 · CoinGecko · CryptoPanic · LRS Storage · Vercel |
+| [**aws-stock-sentiment-pipeline**](https://github.com/JashwanthReddyE/aws-stock-sentiment-pipeline) | End-to-end AWS pipeline: Lambda news ingest → S3 medallion → Bedrock Claude Haiku sentiment → Athena → 5-day forecast → Streamlit dashboard. IaC with Terraform, CI on GitHub Actions, hermetic tests via moto. | Python · AWS Lambda · S3 · Athena · Bedrock · Terraform · Streamlit · Plotly |
 | [**sql-data-warehouse-project**](https://github.com/JashwanthReddyE/sql-data-warehouse-project) | SQL Server data warehouse with a bronze / silver / gold medallion architecture. CRM + ERP source integration, SCD logic, quality checks, and gold-layer star-schema views (`dim_customers`, `dim_products`, `fact_sales`). | T-SQL · SQL Server · Medallion architecture · Dimensional modeling |
 | [**Gen-AI**](https://github.com/JashwanthReddyE/Gen-AI) | LangChain *Ice Breaker* agent — given a person's name, finds their LinkedIn profile via Tavily search, scrapes it, and returns a structured Pydantic summary from Gemini. ReAct agent + prompt engineering. | Python · LangChain · Gemini · Tavily · Pydantic |
 | [**IBM**](https://github.com/JashwanthReddyE/IBM) | IBM Data Science capstone — SpaceX Falcon 9 first-stage landing prediction. API + web scraping ingestion, EDA, label engineering, classification. Plus King County house-price regression. | Python · Pandas · scikit-learn · seaborn |
-| [**JashwanthReddyE.github.io**](https://github.com/JashwanthReddyE/JashwanthReddyE.github.io) | Current Data Engineer portfolio site — architecture diagrams, wins-with-numbers, featured-project deep-dive on the AWS stock-sentiment pipeline. | HTML · CSS · Vanilla JS |
-| [**Portfolio**](https://github.com/JashwanthReddyE/Portfolio) | First-iteration personal portfolio site — About / Experience / Projects / Contact, responsive layout. | HTML · CSS · JavaScript |
+| [**JashwanthReddyE.github.io**](https://github.com/JashwanthReddyE/JashwanthReddyE.github.io) | Current portfolio site — architecture diagrams, wins-with-numbers, and deep-dives on the Crypto Sentinel and AWS stock-sentiment pipelines. | HTML · CSS · Vanilla JS |
+
+---
+
+## Coursework & earlier work
+
+- [**Portfolio**](https://github.com/JashwanthReddyE/Portfolio) — first-iteration personal site (HTML / CSS / JS).
+- [**double-pendulum**](https://github.com/JashwanthReddyE/double-pendulum) — MATLAB simulation of a chaotic double-pendulum system.
+- [**INSE-6220**](https://github.com/JashwanthReddyE/INSE-6220) — Concordia advanced statistical methods project (Jupyter).
+- [**INSE-6230**](https://github.com/JashwanthReddyE/INSE-6230) · [**INSE-6210-Data**](https://github.com/JashwanthReddyE/INSE-6210-Data) — Concordia project data and analysis sets.
+- [**INSE-6250-Phonebook**](https://github.com/JashwanthReddyE/INSE-6250-Phonebook) — Java phonebook app, software-quality coursework.
+- [**freecodecamp**](https://github.com/JashwanthReddyE/freecodecamp) — freeCodeCamp exercises.
 
 ---
 
