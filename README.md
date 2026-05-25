@@ -80,5 +80,5 @@ Azure Synapse data-warehouse modernization for clinical operations, claims, and 
 ## Get in touch
 
 - [jashwanthreddyearla@gmail.com](mailto:jashwanthreddyearla@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/jashwanthreddye/)
+- [LinkedIn](https://www.linkedin.com/in/jrearla/)
 - [Portfolio](https://jashwanthreddye.github.io)
